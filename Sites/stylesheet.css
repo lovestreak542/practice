@@ -78,6 +78,7 @@ a {
 .main {
   display: block;
   margin-top: -10px;
+  margin-bottom: 120px;
   text-align: left;
   min-width: 600px;
   position: absolute;
@@ -99,7 +100,7 @@ a {
   color: white;*/
   max-width: 100px;
   height: 90px;
-  margin-left: 150px;
+  padding-left: 150px;
   list-style: none;
   text-align: left;
   margin-left: 90px;
@@ -109,6 +110,7 @@ a {
   padding-left: 15px;
 }
 .main1 {
+  padding-bottom: 120px;
   color: white;
   display: block;
   margin-top: 300px;
@@ -129,13 +131,18 @@ a {
   justify-content: space-between;
   flex-direction: column;
 }
-.bottom {
-  font-size: 30px;
-  width: 100%;
-  height: 100px;
-  display: flex;
-  background-color: darkgray;
-  flex-direction: column;
-  height: 100%;
-  font-family: 'ZCOOL QingKe HuangYou', monospace;
+.footer {
+     font-size: 24px;
+     font-family: 'ZCOOL QingKe HuangYou', monospace;
+     position: fixed;
+     top: 85%;
+     bottom: -1850px;
+     width:100%;
+     background: #282828;
+     outline: 0px solid #FAA21A;
+     color: White;
+     min-width: 50%;
+     max-width: 120%;
+     min-height: 20px;
+     max-height: 200px;
 }
