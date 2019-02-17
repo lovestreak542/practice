@@ -1,9 +1,12 @@
 html {
   background: url('https://wallpapercave.com/wp/wp2804243.jpg') no-repeat center center fixed;
   background-size: cover;
-
+  height: 100%;
 }
 body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
   background-repeat: no-repeat;
   background-position: top center;
   background-attachment: fixed;
@@ -119,10 +122,20 @@ a {
   padding-top: 15px;
   background-color: grey;
   font-family: 'ZCOOL QingKe HuangYou', monospace;
+  margin-bottom: 150px;
 }
 .news {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-
+}
+.bottom {
+  font-size: 30px;
+  width: 100%;
+  height: 100px;
+  display: flex;
+  background-color: darkgray;
+  flex-direction: column;
+  height: 100%;
+  font-family: 'ZCOOL QingKe HuangYou', monospace;
 }
