@@ -1,0 +1,128 @@
+html {
+  background: url('https://wallpapercave.com/wp/wp2804243.jpg') no-repeat center center fixed;
+  background-size: cover;
+
+}
+body {
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  /*Menu*/
+}
+.menu {
+  font-family: 'Indie Flower', cursive;
+  font-size: 25px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 720px;
+  background-color: none;
+  height: 15vh;
+  margin-left: 0px;
+  list-style: none;
+  padding-top: -50px;
+  padding-left: 15px;
+  padding-right: 15px;
+  .faq a {
+    color: white;
+  }
+}
+.menu li {
+  text-decoration: none;
+  width: 125px;
+  height: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+  ul a:hover {
+  text-decoration: none;
+  color: red;
+  background-color: none;
+}
+
+ul a:active{
+  text-decoration: none;
+  color: black;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+/*sections*/
+.head {
+  display: block;
+  background-image: url(https://pp.userapi.com/c849536/v849536259/1293e3/-qF9RtqBmME.jpg);
+  background-size: cover;
+  position: absolute relative;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  background-color: none;
+  color: white;
+  max-width: 100px;
+  height: 90px;
+  margin-left: 150px;
+  list-style: none;
+  text-align: left;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  padding-bottom: -25px;
+  padding-top: 2px;
+  padding-left: 15px;
+}
+.main {
+  display: block;
+  margin-top: -10px;
+  text-align: left;
+  min-width: 600px;
+  position: absolute;
+  padding-left: 150px;
+  margin-right: 100px;
+  width: 830px;
+  padding: 15px;
+  padding-top: 15px;
+  background-color: grey;
+  font-family: 'ZCOOL QingKe HuangYou', monospace;
+}
+.head1 {
+  display: block;
+  /*background-image: url(https://pp.userapi.com/c849536/v849536259/1293e3/-qF9RtqBmME.jpg);
+  background-size: cover;
+  position: absolute relative;
+  font-family: 'ZCOOL QingKe HuangYou', cursive;
+  background-color: none;
+  color: white;*/
+  max-width: 100px;
+  height: 90px;
+  margin-left: 150px;
+  list-style: none;
+  text-align: left;
+  margin-left: 90px;
+  margin-bottom: 10px;
+  padding-bottom: -25px;
+  padding-top: 2px;
+  padding-left: 15px;
+}
+.main1 {
+  color: white;
+  display: block;
+  margin-top: 300px;
+  text-align: left;
+  min-width: 600px;
+  position: absolute;
+  padding-left: 150px;
+  margin-right: 100px;
+  width: 830px;
+  padding: 15px;
+  padding-top: 15px;
+  background-color: grey;
+  font-family: 'ZCOOL QingKe HuangYou', monospace;
+}
+.news {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+
+}
